@@ -17,7 +17,7 @@ pipeline {
                 echo "Start Building dependencies..."
                 sh "python3 -m venv venv"
                 sh 'pip3 install -r requirements.txt'
-                sh "docker run -p 80:80 -d kennethreitz/httpbin"
+                sh "sudo docker run -p 80:80 -d kennethreitz/httpbin"
 
             }
         }
