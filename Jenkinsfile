@@ -14,7 +14,7 @@ pipeline {
                 sh "sudo apt install -y virtualenv"
                 sh "sudo apt install -y allure"
                 echo "Start Building dependencies..."
-                sh "python -m venv venv"
+                sh "python3 -m venv venv"
                 sh 'pip3 install -r requirements.txt'
 
             }
