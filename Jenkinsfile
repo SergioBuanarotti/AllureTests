@@ -13,7 +13,7 @@ pipeline {
                 sh "sudo apt install -y python3-pip"
                 sh "sudo apt install -y python3.8-venv"
                 sh "sudo apt install -y allure"
-                sh "sudo apt install docker.io"
+                sh "sudo apt install -y docker.io"
                 echo "Start Building dependencies..."
                 sh "python3 -m venv venv"
                 sh 'pip3 install -r requirements.txt'
