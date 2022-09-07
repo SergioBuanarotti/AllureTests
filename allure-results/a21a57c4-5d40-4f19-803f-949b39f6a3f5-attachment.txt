@@ -1,0 +1,1 @@
+{'args': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'Host': 'localhost', 'User-Agent': 'python-requests/2.28.1'}, 'origin': '172.17.0.1', 'url': 'http://localhost/get'}
