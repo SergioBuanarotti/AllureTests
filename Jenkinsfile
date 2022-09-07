@@ -23,6 +23,7 @@ pipeline {
         }
         stage('2-Test') {
             steps {
+                sh "pwd"
                 sh 'python3 -m pytest --alluredir=./allure-results tests'
             }
         }
