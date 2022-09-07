@@ -11,7 +11,7 @@ pipeline {
         stage('1-Build') {
             steps {
                 sh "sudo apt install -y python3-pip"
-                sh "sudo apt install -y virtualenv"
+                sh "sudo apt install -y python3.8-venv"
                 sh "sudo apt install -y allure"
                 echo "Start Building dependencies..."
                 sh "python3 -m venv venv"
