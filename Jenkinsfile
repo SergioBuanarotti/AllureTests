@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker{
-            image 'ubuntu'
-        }
-    }
+    agent any
     environment {
       PROJECT_NAME = "Neptun"
       OWNER_NAME   = "SergioBuanarotti"
