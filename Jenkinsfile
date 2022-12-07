@@ -1,7 +1,9 @@
 pipeline {
     agent {
-                label 'linux'
-            }
+        docker {
+            image 'python:3'
+        }
+    }
     environment {
       PROJECT_NAME = "Neptun"
       OWNER_NAME   = "SergioBuanarotti"
